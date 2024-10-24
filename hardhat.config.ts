@@ -1,4 +1,6 @@
 import { HardhatUserConfig, vars } from "hardhat/config";
+import "@typechain/hardhat";
+import "@nomicfoundation/hardhat-ethers";
 import "@nomicfoundation/hardhat-toolbox";
 
 const INFURA_API_KEY = vars.get("INFURA_API_KEY");
